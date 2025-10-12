@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> متجر آش</title>
+    <style>
+        body {
+            background-color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+            text-align: center;
+            margin: 0;
+            padding: 40px 0;
+        }
+
+        .box {
+            background-color: blueviolet;
+            box-shadow: 0 4px 10px darkmagenta;
+            border: 2px solid black;
+            border-radius: 20px;
+            width: 80%;
+            max-width: 700px;
+            margin: 20px auto;
+            padding: 30px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+        }
+
+        .box:hover {
+            transform: scale(1.02);
+            box-shadow: 0 6px 15px purple;
+        }
+
+        h1, h2, p {
+            color: white;
+            margin: 10px 0;
+        }
+
+        h1 {
+            font-size: 2em;
+        }
+
+        h2 {
+            font-size: 1.6em;
+        }
+
+        p {
+            font-size: 1.1em;
+        }
+
+        /* إزالة خط الرابط */
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>مرحباً بكم في موقع ash</h1>  
+    </div>
+
+    <a href="page2.html">
+        <div class="box">
+            <h2>منتجاتنا المميزة</h2>  
+            <p>اضغط هنا لتصفح المنتجات المميزة لدينا.</p>
+        </div>
+    </a>
+
+    <div class="box">
+        <h2>تواصل معنا</h2>  
+        <p>يمكنك مراسلتنا عبر البريد الإلكتروني أو واتساب.</p>
+    </div>
+</body>
+</html>
